@@ -1,0 +1,35 @@
+feature
+tenure
+MonthlyCharges
+TotalCharges
+AvgChargePerMonth
+gender_Male
+SeniorCitizen_Yes
+Partner_Yes
+Dependents_Yes
+PhoneService_Yes
+MultipleLines_No Phone Service
+MultipleLines_Yes
+InternetService_Fiber Optic
+InternetService_No
+OnlineSecurity_No Internet Service
+OnlineSecurity_Yes
+OnlineBackup_No Internet Service
+OnlineBackup_Yes
+DeviceProtection_No Internet Service
+DeviceProtection_Yes
+TechSupport_No Internet Service
+TechSupport_Yes
+StreamingTV_No Internet Service
+StreamingTV_Yes
+StreamingMovies_No Internet Service
+StreamingMovies_Yes
+Contract_One Year
+Contract_Two Year
+PaperlessBilling_Yes
+PaymentMethod_Credit Card (Automatic)
+PaymentMethod_Electronic Check
+PaymentMethod_Mailed Check
+TenureGroup_1-2 Years
+TenureGroup_2-4 Years
+TenureGroup_4+ Years

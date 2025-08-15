@@ -1,0 +1,151 @@
+{
+  "exploration_metadata": {
+    "generated_at": "2025-08-14T04:27:10.749565",
+    "instance_type": "unknown",
+    "dataset_source": "s3://telco-churn-portfolio/data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv",
+    "script_version": "1.0.0"
+  },
+  "dataset_overview": {
+    "total_rows": 7043,
+    "total_columns": 21,
+    "memory_usage_mb": 7.7881574630737305
+  },
+  "churn_analysis": {
+    "overall_churn_rate": 0.2653698707936959,
+    "churn_counts": {
+      "no_churn": 5174,
+      "churn": 1869
+    },
+    "churn_percentages": {
+      "no_churn": 0.7346301292063041,
+      "churn": 0.2653698707936959
+    }
+  },
+  "data_quality": {
+    "missing_values": {
+      "customerID": 0,
+      "gender": 0,
+      "SeniorCitizen": 0,
+      "Partner": 0,
+      "Dependents": 0,
+      "tenure": 0,
+      "PhoneService": 0,
+      "MultipleLines": 0,
+      "InternetService": 0,
+      "OnlineSecurity": 0,
+      "OnlineBackup": 0,
+      "DeviceProtection": 0,
+      "TechSupport": 0,
+      "StreamingTV": 0,
+      "StreamingMovies": 0,
+      "Contract": 0,
+      "PaperlessBilling": 0,
+      "PaymentMethod": 0,
+      "MonthlyCharges": 0,
+      "TotalCharges": 0,
+      "Churn": 0
+    },
+    "data_types": {
+      "customerID": "object",
+      "gender": "object",
+      "SeniorCitizen": "int64",
+      "Partner": "object",
+      "Dependents": "object",
+      "tenure": "int64",
+      "PhoneService": "object",
+      "MultipleLines": "object",
+      "InternetService": "object",
+      "OnlineSecurity": "object",
+      "OnlineBackup": "object",
+      "DeviceProtection": "object",
+      "TechSupport": "object",
+      "StreamingTV": "object",
+      "StreamingMovies": "object",
+      "Contract": "object",
+      "PaperlessBilling": "object",
+      "PaymentMethod": "object",
+      "MonthlyCharges": "float64",
+      "TotalCharges": "object",
+      "Churn": "object"
+    }
+  },
+  "categorical_insights": {
+    "Contract": {
+      "highest_churn_category": "Month-to-month",
+      "highest_churn_rate": 0.4270967741935484,
+      "lowest_churn_category": "Two year",
+      "lowest_churn_rate": 0.02831858407079646,
+      "all_rates": {
+        "Month-to-month": 0.4270967741935484,
+        "One year": 0.11269517990495587,
+        "Two year": 0.02831858407079646
+      }
+    },
+    "InternetService": {
+      "highest_churn_category": "Fiber optic",
+      "highest_churn_rate": 0.4189276485788114,
+      "lowest_churn_category": "No",
+      "lowest_churn_rate": 0.07404980340760157,
+      "all_rates": {
+        "Fiber optic": 0.4189276485788114,
+        "DSL": 0.1895910780669145,
+        "No": 0.07404980340760157
+      }
+    },
+    "PaymentMethod": {
+      "highest_churn_category": "Electronic check",
+      "highest_churn_rate": 0.4528541226215645,
+      "lowest_churn_category": "Credit card (automatic)",
+      "lowest_churn_rate": 0.15243101182654403,
+      "all_rates": {
+        "Electronic check": 0.4528541226215645,
+        "Mailed check": 0.19106699751861042,
+        "Bank transfer (automatic)": 0.16709844559585493,
+        "Credit card (automatic)": 0.15243101182654403
+      }
+    },
+    "gender": {
+      "highest_churn_category": "Female",
+      "highest_churn_rate": 0.26920871559633025,
+      "lowest_churn_category": "Male",
+      "lowest_churn_rate": 0.2616033755274262,
+      "all_rates": {
+        "Female": 0.26920871559633025,
+        "Male": 0.2616033755274262
+      }
+    },
+    "SeniorCitizen": {
+      "highest_churn_category": "1",
+      "highest_churn_rate": 0.4168126094570928,
+      "lowest_churn_category": "0",
+      "lowest_churn_rate": 0.23606168446026096,
+      "all_rates": {
+        "1": 0.4168126094570928,
+        "0": 0.23606168446026096
+      }
+    }
+  },
+  "numeric_insights": {
+    "SeniorCitizen": {
+      "mean": 0.1621468124378816,
+      "median": 0.0,
+      "std": 0.3686116056100131,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "tenure": {
+      "mean": 32.37114865824223,
+      "median": 29.0,
+      "std": 24.55948102309446,
+      "min": 0.0,
+      "max": 72.0
+    },
+    "MonthlyCharges": {
+      "mean": 64.76169246059918,
+      "median": 70.35,
+      "std": 30.090047097678493,
+      "min": 18.25,
+      "max": 118.75
+    }
+  }
+}
